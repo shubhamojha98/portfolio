@@ -68,7 +68,11 @@ header {
 /* Header Socials */
 .headersocial {
   font-size: 2em;
-margin-top: 2em;
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   /* align-items: center;
   bottom: 3rem;
   display: flex;
@@ -79,7 +83,61 @@ margin-top: 2em;
   position: absolute; */
 }
 
-.headersocial a{
+.headersocial a {
   color: turquoise;
   padding-right: 5px;
+}
+
+/* Own Image */
+.own-image {
+  background: linear-gradient(turquoise 0%, transparent 110%);
+  border-radius: 2rem;
+  height: 24rem;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  padding: 3em 1.5em;
+  position: absolute;
+  width: 22rem;
+}
+.own-image img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  border-radius: inherit;
+}
+
+/* Footer */
+
+footer{
+  margin-top: 6em;
+  /* padding: 2em 0 1em 0; */
+  padding: 18px 0 1px 0;;
+  text-align: center;
+  background: turquoise;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-socials a{
+  background-color: black;
+  color: whitesmoke;
+  padding: 11px;
+  transition: all 400ms ease;
+}
+
+.footer-socials a:hover{
+  background: turquoise;
+  color: black;
+  border-color: turquoise;
+}
+
+
+.copyright {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  color: black;
 }
