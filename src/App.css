@@ -52,7 +52,7 @@ section > h2{
   width: 75%;
 }
 header {
-  height: 100vh;
+  /* height: 100vh; */
   overflow: hidden;
   padding-top: 7rem;
 }
@@ -103,7 +103,7 @@ header {
 }
 
 /* Own Image */
-.own-image {
+/* .own-image {
   background: linear-gradient(turquoise 0%, transparent 110%);
   border-radius: 2rem;
   height: 24rem;
@@ -118,7 +118,7 @@ header {
   object-fit: cover;
   width: 100%;
   border-radius: inherit;
-}
+} */
 
 /* About */
 .about-section {
