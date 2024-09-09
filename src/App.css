@@ -32,6 +32,19 @@ body {
   line-height: 1.7;
   background-image: url(/src/assets/bg-texture.png);
 }
+section {
+  margin-top: 6em;
+}
+
+section > h5 {
+  color: white;
+  text-align: center;
+}
+section > h2{
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #b2ddb7;
+}
 
 /* Header */
 .container {
@@ -108,15 +121,6 @@ header {
 }
 
 /* About */
-section {
-  margin-top: 6em;
-}
-
-section > h5,
-section > h2 {
-  color: white;
-  text-align: center;
-}
 .about-section {
   display: flex;
   flex-direction: column;
@@ -128,38 +132,75 @@ section > h2 {
   gap: 15%;
   grid-template-columns: 100% 62%;
 }
-.about-card{
+.about-card {
   grid-gap: 1.5rem;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(3, 2fr);
 }
 
-.card{
+.card {
   background: teal;
   border: 1px solid transparent;
   text-align: center;
   border-radius: 1rem;
   padding: 1.5rem;
 }
-.icon{
+.icon {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.card small{
-  color: hsla(0, 0%, 100%, .6);;
+.card small {
+  color: hsla(0, 0%, 100%, 0.6);
 }
-.about-content p{
-  color: hsla(0, 0%, 100%, .6);
+.about-content p {
+  color: hsla(0, 0%, 100%, 0.6);
   margin: 1rem 0 1.5rem 0;
 }
-.about-content span{
+.about-content span {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Experience*/
+.exp-card {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+.frontend-card,
+.backend-card {
+  background: teal;
+  padding: 2.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: 400ms ease;
+}
+.frontend-card h3,
+.backend-card h3 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.exp-content {
+  display: grid;
+  row-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+.exp-icon{
+  /* color: hsla(0, 0%, 100%, 0.6); */
+  margin-top: 6px;
+  margin-right: 5px;
+
+}
+.exp-details {
+  display: flex;
+}
+.text-light{
+  color: hsla(0, 0%, 100%, 0.6);
+}
 /* Footer */
 
 footer {
